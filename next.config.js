@@ -4,7 +4,6 @@ const nextConfig = {
   swcMinify: true,
   distDir: 'build',
    experimental: {
-    externalDir: true
   },
 }
 
