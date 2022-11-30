@@ -25,6 +25,9 @@
     "plugins": [
       {
         "name": "typescript-tslint-plugin"
+      },
+      {
+        "name": "next"
       }
     ],
     "removeComments": true,
@@ -43,6 +46,7 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    ".next/types/**/*.ts"
   ]
 }
